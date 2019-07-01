@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e1k-Ov-Vgx">
+                                <rect key="frame" x="0.0" y="533" width="1024" height="300"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="65268102_2544175152262016_9143003324616802304_n" translatesAutoresizingMaskIntoConstraints="NO" id="Cp4-XN-VUC">
+                                        <rect key="frame" x="324.5" y="0.0" width="375" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="laF-ls-30U"/>
+                                            <constraint firstAttribute="height" constant="300" id="xHi-Bh-7sR"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zj8-Su-2Sn">
+                                        <rect key="frame" x="487" y="92" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="36s-2b-zK0"/>
+                                            <constraint firstAttribute="width" constant="50" id="tyB-v9-wm4"/>
+                                        </constraints>
+                                        <state key="normal" title="papaya">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="papayaSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZjB-lT-eik"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCz-lX-g5E">
+                                        <rect key="frame" x="552" y="129" width="40" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="1M9-Nw-sAz"/>
+                                            <constraint firstAttribute="width" constant="40" id="URZ-dz-oo3"/>
+                                        </constraints>
+                                        <state key="normal" title="Apple">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="appleSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ahd-wz-kCB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7C-Y6-nbW">
+                                        <rect key="frame" x="529" y="165.5" width="46" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="1Sv-Db-ap3"/>
+                                            <constraint firstAttribute="width" constant="46" id="dUe-U1-rdB"/>
+                                        </constraints>
+                                        <state key="normal" title="Orange">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="orangeSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7t-Qg-6ON"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdZ-Lg-Z6T">
+                                        <rect key="frame" x="517" y="195" width="40" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="XLb-13-06a"/>
+                                            <constraint firstAttribute="height" constant="30" id="fxX-pR-TV4"/>
+                                        </constraints>
+                                        <state key="normal" title="Rasberry">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="rasberrySelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ibl-Gy-jJ0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UL7-vW-q2x">
+                                        <rect key="frame" x="418.5" y="187.5" width="87" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="87" id="466-ID-ZNq"/>
+                                            <constraint firstAttribute="height" constant="25" id="jwW-JD-rn5"/>
+                                        </constraints>
+                                        <state key="normal" title="Banana">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="bananaSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yh9-hV-Kp8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48h-Pd-WrB">
+                                        <rect key="frame" x="417" y="150" width="70" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="WU4-y4-Mb5"/>
+                                            <constraint firstAttribute="height" constant="30" id="lLO-F5-8vR"/>
+                                        </constraints>
+                                        <state key="normal" title="Pineapple">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pineappleSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qKK-X2-r9x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-Sj-Jht">
+                                        <rect key="frame" x="465" y="215" width="40" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="YWg-dQ-g6R"/>
+                                            <constraint firstAttribute="width" constant="40" id="bNL-jg-LuV"/>
+                                        </constraints>
+                                        <state key="normal" title="cherry">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cherrySelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AIV-SI-g8O"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Zj8-Su-2Sn" firstAttribute="top" secondItem="e1k-Ov-Vgx" secondAttribute="top" constant="92" id="6v7-T0-ghY"/>
+                                    <constraint firstAttribute="height" constant="300" id="F0k-G1-VbD"/>
+                                    <constraint firstItem="UL7-vW-q2x" firstAttribute="centerY" secondItem="e1k-Ov-Vgx" secondAttribute="centerY" constant="50" id="FYE-4o-ZIt"/>
+                                    <constraint firstItem="Cp4-XN-VUC" firstAttribute="centerY" secondItem="e1k-Ov-Vgx" secondAttribute="centerY" id="OGl-KM-hn5"/>
+                                    <constraint firstItem="hdZ-Lg-Z6T" firstAttribute="centerY" secondItem="e1k-Ov-Vgx" secondAttribute="centerY" constant="60" id="Sah-PS-cQt"/>
+                                    <constraint firstItem="Zj8-Su-2Sn" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" id="VxY-L8-ivm"/>
+                                    <constraint firstItem="Cp4-XN-VUC" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" id="aN1-hY-2XD"/>
+                                    <constraint firstItem="48h-Pd-WrB" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" constant="-60" id="dij-9L-QAM"/>
+                                    <constraint firstItem="48h-Pd-WrB" firstAttribute="centerY" secondItem="e1k-Ov-Vgx" secondAttribute="centerY" constant="15" id="e3P-Ru-lm7"/>
+                                    <constraint firstItem="hdZ-Lg-Z6T" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" constant="25" id="hiG-xc-vs1"/>
+                                    <constraint firstItem="tCz-lX-g5E" firstAttribute="top" secondItem="e1k-Ov-Vgx" secondAttribute="top" constant="129" id="j12-Ng-DYl"/>
+                                    <constraint firstItem="dgd-Sj-Jht" firstAttribute="centerY" secondItem="e1k-Ov-Vgx" secondAttribute="centerY" constant="80" id="krA-Qw-Oxp"/>
+                                    <constraint firstItem="UL7-vW-q2x" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" constant="-50" id="msI-vz-ASB"/>
+                                    <constraint firstItem="dgd-Sj-Jht" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" constant="-27" id="rB6-ZX-gv6"/>
+                                    <constraint firstItem="W7C-Y6-nbW" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" constant="40" id="tb6-tU-icD"/>
+                                    <constraint firstItem="W7C-Y6-nbW" firstAttribute="centerY" secondItem="e1k-Ov-Vgx" secondAttribute="centerY" constant="28" id="xCG-db-S2r"/>
+                                    <constraint firstItem="tCz-lX-g5E" firstAttribute="centerX" secondItem="e1k-Ov-Vgx" secondAttribute="centerX" constant="60" id="xNT-pC-bxA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e1k-Ov-Vgx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fmy-1j-DnI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e1k-Ov-Vgx" secondAttribute="trailing" id="btW-kg-tSJ"/>
+                            <constraint firstItem="e1k-Ov-Vgx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iNf-9K-Fbi"/>
+                            <constraint firstItem="e1k-Ov-Vgx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="w12-F3-WZD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="apple" destination="tCz-lX-g5E" id="lzC-b5-YXc"/>
+                        <outlet property="banana" destination="UL7-vW-q2x" id="nFp-rH-puS"/>
+                        <outlet property="cherry" destination="dgd-Sj-Jht" id="sjZ-od-0sj"/>
+                        <outlet property="innerView" destination="e1k-Ov-Vgx" id="ltP-mP-VdS"/>
+                        <outlet property="orange" destination="W7C-Y6-nbW" id="tXZ-x1-UIT"/>
+                        <outlet property="papaya" destination="Zj8-Su-2Sn" id="jqA-xO-Our"/>
+                        <outlet property="pineapple" destination="48h-Pd-WrB" id="xD0-MX-SY8"/>
+                        <outlet property="rasberry" destination="hdZ-Lg-Z6T" id="bpN-Qm-Thb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.765625" y="132.65007320644216"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="65268102_2544175152262016_9143003324616802304_n" width="720" height="705"/>
+    </resources>
+</document>

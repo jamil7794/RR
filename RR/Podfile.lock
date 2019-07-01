@@ -1,0 +1,16 @@
+PODS:
+  - AMPopTip (3.2.1)
+
+DEPENDENCIES:
+  - AMPopTip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMPopTip
+
+SPEC CHECKSUMS:
+  AMPopTip: 31251008f2c00cbc0a3d2b18520f277c5b5ab4da
+
+PODFILE CHECKSUM: 4454fcab17e2616723bca7d7ea047079c9d6ecdb
+
+COCOAPODS: 1.5.3
