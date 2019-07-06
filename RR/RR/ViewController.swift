@@ -36,12 +36,12 @@ class ViewController: UIViewController {
     @IBAction func papayaSelected(_ sender: Any) {
         popTip.bubbleColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
         popTip.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        popTip.show(text: "Papaya! 120 cal", direction: .up, maxWidth: 200, in: innerView, from: view.frame)
+        popTip.show(text: "Papaya! 120 cal", direction: .up, maxWidth: 200, in: innerView, from: papaya.frame)
     }
     @IBAction func appleSelected(_ sender: Any) {
         popTip.bubbleColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         popTip.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        popTip.show(text: "Apple! 95 cal", direction: .up, maxWidth: 200, in: innerView, from: view.frame)
+        popTip.show(text: "Apple! 95 cal", direction: .right, maxWidth: 200, in: innerView, from: apple.frame)
     }
     @IBAction func orangeSelected(_ sender: Any) {
         popTip.bubbleColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
